@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_Form1" value="mailfrom" />
+	<infoitem key="MM_Form_Count" value="6" />
+	<infoitem key="MM_Form2" value="mailto" />
+	<infoitem key="MM_Form3" value="mailcc" />
+	<infoitem key="MM_Form4" value="mailbcc" />
+	<infoitem key="MM_Form5" value="mailsubject" />
+	<infoitem key="MM_Form6" value="mailcontent" />
+	<infoitem key="MM_URL_Count" value="0" />
+</info>
