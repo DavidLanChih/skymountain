@@ -11,7 +11,6 @@
 	<!-- css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-	<link href="css/jcarousel.css" rel="stylesheet" />
 	<link href="css/flexslider.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
