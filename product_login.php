@@ -21,6 +21,8 @@ $str .= substr($possible, rand(0, strlen($possible)), 1);
 return($str);
 }
 $ordernumber=MakePass(10);
+
+                        
 if(isset($_POST["action"])&&($_POST["action"]=="orderlist")){
 //輸入資料的各項連結位置
 $query_insert = "INSERT INTO customer (co_name, co_iden, co_mail, co_bank, co_account, co_phone, co_Room, co_RoomVIP1, co_RoomVIP2, co_RoomPresident, co_roomtime, co_ordernumber, co_total, co_pay, co_jointime) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())";
@@ -158,10 +160,10 @@ header("Location: product_thank.php");
                         <input type='text' name='co_iden' id='co_iden'  size='16' required>
                     </div>
                     <div class="col-md-5" style="padding-top:2%; font-size:25px;">電子信箱：
-                        <input type='text' name='co_mail' id='co_mail'  size='20' required>
+                        <input type='email' name='co_mail' id='co_mail'  size='20' required>
                     </div>
                     <div class="col-md-3" style="padding-top:2%; font-size:25px;">電話：
-                        <input type='text' name='co_phone' id='co_phone'  size='10' required>
+                        <input type='tel' name='co_phone' id='co_phone'  size='10' required>
                     </div>
                     <div class="col-md-4" style="padding-top:2%; font-size:25px;">匯款銀行名稱：
                         <input type='text' name='co_bank' id='co_bank'  size='10' required>

@@ -13,7 +13,7 @@
     <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-</head>
+    </head>
 <body class=""><div id="wrapper">
     <!-- start header -->
     <header>
